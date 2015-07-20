@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #008080;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  -webkit-perspective: 1800px;
+          perspective: 1800px; }
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 1.4rem;
+      line-height: 2.2rem; } }
+
+h1 {
+  font-size: 3.6rem; }
+  @media only screen and (max-width: 500px) {
+    h1 {
+      font-size: 2.4rem; } }
+
+a {
+  color: #008080;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+img {
+  max-width: 100%; }
+
+.page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center; }
+  .page__content {
+    max-width: 600px;
+    margin: 0 auto; }
+
+.portrait {
+  max-width: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15); }
+  .portrait__default {
+    display: block; }
+  .portrait__party {
+    display: none; }
