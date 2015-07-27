@@ -1,0 +1,28 @@
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#animated-box {
+    background: #FF70A9;
+    height: 200px;
+    margin: 200px auto;
+    width: 200px;
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+}
+
+
+@-webkit-keyframes rollIn {
+    0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); }
+    100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); }
+}
+@keyframes rollIn {
+    0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); }
+}
+.rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn;
+}

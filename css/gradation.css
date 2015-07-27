@@ -1,0 +1,10 @@
+
+[u-background~=fixed] {
+    background-attachment: fixed;
+}
+
+[u-background~=greenGradient] {
+    color: #fff;
+    background-image: -webkit-linear-gradient(290deg,#65d165 10%,#57D39C 80%);
+    background-image: linear-gradient(160deg,#65d165 10%,#57D39C 80%);
+}
