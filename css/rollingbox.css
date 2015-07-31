@@ -1,3 +1,19 @@
+#title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+div {
+    display: block;
+}
+
+.text_container {
+    width: 700px;
+    margin: 20px auto 50px;
+    text-align: center;
+    color: #fff8f1;
+}
+
 .animated {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
